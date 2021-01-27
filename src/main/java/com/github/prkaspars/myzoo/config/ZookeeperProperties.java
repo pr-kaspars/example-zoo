@@ -1,4 +1,4 @@
-package com.github.prkaspars.mycache.config;
+package com.github.prkaspars.myzoo.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

@@ -1,4 +1,4 @@
-package com.github.prkaspars.mycache.queue;
+package com.github.prkaspars.myzoo.queue;
 
 import org.apache.curator.framework.recipes.queue.QueueSerializer;
 import org.springframework.stereotype.Component;

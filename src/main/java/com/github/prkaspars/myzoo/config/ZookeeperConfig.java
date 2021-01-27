@@ -1,4 +1,4 @@
-package com.github.prkaspars.mycache.config;
+package com.github.prkaspars.myzoo.config;
 
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;

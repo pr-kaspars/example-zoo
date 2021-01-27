@@ -1,4 +1,4 @@
-package com.github.prkaspars.mycache.leader;
+package com.github.prkaspars.myzoo.leader;
 
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.recipes.leader.LeaderSelectorListenerAdapter;

@@ -1,4 +1,4 @@
-package com.github.prkaspars.mycache.leader;
+package com.github.prkaspars.myzoo.leader;
 
 import org.apache.curator.framework.recipes.queue.DistributedQueue;
 import org.slf4j.Logger;

@@ -1,4 +1,4 @@
-package com.github.prkaspars.mycache;
+package com.github.prkaspars.myzoo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
