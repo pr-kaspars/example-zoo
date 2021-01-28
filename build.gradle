@@ -17,6 +17,7 @@ dependencies {
     implementation group: 'org.apache.curator', name: 'curator-client', version: '5.1.0'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-redis'
 }
 
 test {

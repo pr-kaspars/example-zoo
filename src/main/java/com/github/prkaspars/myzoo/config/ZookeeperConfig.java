@@ -15,6 +15,8 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import java.util.UUID;
+
 @Configuration
 @EnableConfigurationProperties(ZookeeperProperties.class)
 public class ZookeeperConfig {
@@ -23,6 +25,11 @@ public class ZookeeperConfig {
   @Autowired
   public ZookeeperConfig(ZookeeperProperties properties) {
     this.properties = properties;
+  }
+
+  @Bean
+  public String name() {
+    return UUID.randomUUID().toString();
   }
 
   @Bean
